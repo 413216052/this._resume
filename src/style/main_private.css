@@ -1,0 +1,33 @@
+main {
+  overflow: auto;
+  font-size: 14px;
+  background: rgb(48, 48, 48);
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  outline: 0;
+  position: absolute;
+  width: 0;
+  transform-origin: right;
+  max-height: 94.5%;
+  transform: rotateY(-10deg);
+  right: 1%;
+  top: 1%;
+  white-space: nowrap!important;
+  padding: 0;
+  left: 51%;
+  opacity: 0;
+  z-index: -1;
+}
+.main_3d {
+  width: 47%;
+  border: 1px solid #ccc;
+  padding: .7em .7em 1.4em;
+  opacity: 1;
+  z-index: 1;
+}
+.main__content {
+  padding: 2.1em 1.14em 1.4em;
+}
+.main__content:empty {
+  padding: 0;
+  border: 0;
+}
