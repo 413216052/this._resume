@@ -18,8 +18,7 @@ export default {
   name: 'ColorfulLabel',
   data () {
     return {
-      colorArr: [],
-      colorParam: 210
+      colorArr: []
     }
   },
   props: {
@@ -31,11 +30,11 @@ export default {
     }
   },
   methods: {
-    changingColor () {
+    changingColor (colorParam = 210) {
       let r, g, b, color
-      r = Math.floor(Math.random() * this.colorParam)
-      g = Math.floor(Math.random() * this.colorParam)
-      b = Math.floor(Math.random() * this.colorParam)
+      r = Math.floor(Math.random() * colorParam)
+      g = Math.floor(Math.random() * colorParam)
+      b = Math.floor(Math.random() * colorParam)
       color = `rgba(${r}, ${g}, ${b}, 0.8)`
       return color
     },
