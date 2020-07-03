@@ -43,7 +43,6 @@ export default {
       while (i++ < x) {
         this.colorArr.push(this.changingColor())
       }
-      console.log('label__专业技能随机颜色框：', this.colorArr)
     }
   },
   mounted () {
